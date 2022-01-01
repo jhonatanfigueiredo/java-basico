@@ -10,8 +10,16 @@ public class Cliente {
         this.email = email;
     }
 
+    public String getNome() {
+        return nome;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
     @Override
     public String toString() {
-        return nome + " - " + email;
+        return getNome() + " - " + getEmail();
     }
 }
